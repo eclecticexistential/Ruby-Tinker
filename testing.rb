@@ -26,7 +26,6 @@ class Scrape
 					begin
 						test_int = Integer(abb)
 					rescue
-						array << abb
 						csv << [abb]
 					end
 				end
